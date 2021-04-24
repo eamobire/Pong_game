@@ -26,12 +26,10 @@ class ScoreBoard(Turtle):
         self.r_score += 1
         self.update_scoreboard()
 
-
     def increase_left_score(self):
         self.clear()
         self.l_score += 1
         self.update_scoreboard()
-
 
     def game_over(self):
         self.goto(0, 0)
